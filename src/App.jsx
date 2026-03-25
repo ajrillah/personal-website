@@ -5,6 +5,7 @@ import Experiences from "./section/Experiences";
 import Projects from "./section/Projects";
 import Contact from "./section/Contact";
 import Footer from "./section/Footer";
+import Sidebar from "./section/Sidebar"
 
 function App() {
   const [position, setPosition] = useState({ x: 50, y: 50 });
@@ -26,6 +27,8 @@ function App() {
           background: `radial-gradient(circle at ${position.x}% ${position.y}%,#06212e, #041720)`,
         }}
       >
+
+        <Sidebar />
         <Hero />
         <Projects />
         <Experiences />

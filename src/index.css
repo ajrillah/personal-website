@@ -26,7 +26,11 @@ html {
   @apply p-3 ring-1 md:static opacity-0 sm:opacity-100 invisible lg:visible sm:scale-100 backdrop-blur-2xl rounded-2xl;
 } */
 .navbar {
-  @apply p-2.5 pt-3.5 items-center bg-zinc-50/5 rounded-md ring-inset ring-1 ring-zinc-50/5 scale-90 isolate opacity-0 invisible lg:opacity-100 md:visible md:scale-100 backdrop-blur-2xl;
+  @apply p-2.5 pt-3.5 bg-zinc-50/5 rounded-xl ring-inset ring-1 ring-zinc-50/5 scale-90 isolate opacity-0 invisible lg:opacity-100 md:visible md:scale-100 backdrop-blur-md;
+}
+
+.navbar-contact {
+  @apply p-2.5 gap-4 pt-3.5 bg-zinc-50/5 rounded-xl ring-inset ring-1 ring-zinc-50/5 scale-90 isolate opacity-0 invisible lg:opacity-100 md:visible md:scale-100 backdrop-blur-md;
 }
 
 .nav-link {
@@ -48,9 +52,11 @@ html {
 .btn2 {
   @apply flex items-center px-5 pb-1.5 pt-2.5 rounded-xl font-medium text-sm ring-1 ring-zinc-50/5 ring-inset transition-colors;
 }
+
 .btn-primary {
   @apply text-[14pt] bg-zinc-50/10 hover:bg-zinc-50/15;
 }
+
 .btn-primary2 {
   @apply text-[14pt] bg-cyan-700/90 hover:bg-zinc-50/15;
 }
@@ -66,6 +72,7 @@ html {
 .text-field::placeholder {
   @apply text-zinc-400;
 }
+
 /* 
 a {
   font-weight: 500;
