@@ -27,8 +27,8 @@ function App() {
         }}
       >
         <Hero />
-        <Experiences />
         <Projects />
+        <Experiences />
         <Contact />
         <Footer />
       </main>
