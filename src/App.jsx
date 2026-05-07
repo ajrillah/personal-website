@@ -6,6 +6,7 @@ import Projects from "./section/Projects";
 import Contact from "./section/Contact";
 import Footer from "./section/Footer";
 import Sidebar from "./section/Sidebar"
+import Techstack from "./section/Techstack";
 
 function App() {
   const [position, setPosition] = useState({ x: 50, y: 50 });
@@ -31,6 +32,7 @@ function App() {
         <Sidebar />
         <Hero />
         <Projects />
+        <Techstack />
         <Experiences />
         <Contact />
         <Footer />
