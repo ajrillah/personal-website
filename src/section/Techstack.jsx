@@ -125,7 +125,7 @@ const techStacks = [
 
 const Techstacks = () => {
   return (
-    <section className="pt-7 lg:pt-20 mb-15" id="techstack">
+    <section className="pt-7 lg:pt-20 mb-15" id="techstacks">
       <div className="container mx-auto max-w-screen-xl px-6 md:px-12 md:py-4 lg:px-18">
         <h4 className="paragraf text-xl flex justify-center font-semibold lg:text-3xl lg:mx-4 text-zinc-300/90 my-5">
           Tech Stack

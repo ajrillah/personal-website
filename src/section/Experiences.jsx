@@ -4,6 +4,12 @@ import ExperiencesCard from "../components/ExperiencesCard";
 const works = [
   {
     date: "2024",
+    title: "Technical Team Lead, UGM x PT Stechoq Robotika Indonesia",
+    desc: "Led a cross-functional team of 20+ students in developing humanoid, quadruped, and mobile robot platforms, coordinating system design, hardware integration, and software development. Supervised the Vision Division: built a MobileNet-based object detection system integrated into a mobile app with live camera streaming from robot to smartphone for real-time processing.",
+    tags: ["ROS2", "YOLOv8"],
+  },
+  {
+    date: "2024",
     title: "Software Engineer, PT Stechoq Robotika Indonesia",
     desc: "Conduct research and develop autonomous mobile robots that integrate ROS2, YOLOv8, and Stereolabs cameras to enhance functionality and adaptability. The primary focus is on implementing advanced object detection capabilities, allowing the robot to navigate autonomously while effectively avoiding obstacles.",
     tags: ["ROS2", "YOLOv8"],

@@ -2,19 +2,27 @@ import React from "react";
 import ProjectCard from "../components/ProjectCard";
 
 const projects = [
+
   {
-    imgSrc: "../images/1.jpeg",
-    title: "Actuaria Academy Website",
+    imgSrc: "../images/4.jpg",
+    title: "Recycle Waste Classifier",
     tags: ["NodeJs", "React", "ExpressJs", "MongoDB"],
-    projectLink: "https://musify-5al0.onrender.com/",
-    desc: "I managed website development as backend database operations using Node.js and MongoDB. My role included implementing MongoDB to ensure seamless data storage, retrieval, and management on the website.",
+    projectLink: "https://recycle-waste-classifier.up.railway.app/",
+    desc: "Develop and trained an image classification model, achieving high accuracy on real-world conveyor-belt conditions using Raspberry Pi with mixed custom dataset.",
   },
   {
     imgSrc: "../images/2.png",
     title: "Personal Website",
     tags: ["ReactJs", "Tailwind"],
-    projectLink: "https://pixstock-official.vercel.app/",
+    projectLink: "",
     desc: "I developed a personal website using ReactJs and Tailwind, ensuring a responsive and modern UI. My role included managing state efficiently, optimizing component rendering, and integrating interactive features to enhance user experience.",
+  },
+  {
+    imgSrc: "../images/1.jpeg",
+    title: "Actuaria Academy Website",
+    tags: ["NodeJs", "React", "ExpressJs", "MongoDB"],
+    projectLink: "https://recycle-waste-classifier.up.railway.app/",
+    desc: "I managed website development as backend database operations using Node.js and MongoDB. My role included implementing MongoDB to ensure seamless data storage, retrieval, and management on the website.",
   },
   {
     imgSrc: "../images/3.jpeg",
@@ -22,13 +30,6 @@ const projects = [
     tags: ["HTML", "CSS"],
     projectLink: "",
     desc: " I built a tailor website using HTML and CSS, focusing on clean and structured layouts. My responsibilities included implementing a visually appealing design, ensuring cross-browser compatibility, and optimizing page responsiveness for various devices.",
-  },
-  {
-    imgSrc: "../images/project-6.jpg",
-    title: "Personal Portfolio Website",
-    tags: ["NextJs", "ReactJs"],
-    projectLink: "https://github.com/codewithsadee/vcard-personal-portfolio",
-    desc: "I created a personal portfolio website using NextJs and ReactJs to showcase my projects and skills. My role involved implementing server-side rendering for better performance, managing dynamic routing, and optimizing SEO to improve discoverability.",
   },
 ];
 
