@@ -32,13 +32,6 @@ const projects = [
     desc: "I managed website development as backend database operations using Node.js and MongoDB. My role included implementing MongoDB to ensure seamless data storage, retrieval, and management on the website.",
   },
   {
-    imgSrc: "../images/1.jpeg",
-    title: "Actuaria Academy Website",
-    tags: ["NodeJs", "MongoDB", "Typescript"],
-    projectLink: "",
-    desc: "I managed website development as backend database operations using Node.js and MongoDB. My role included implementing MongoDB to ensure seamless data storage, retrieval, and management on the website.",
-  },
-  {
     imgSrc: "../images/3.jpeg",
     title: "Tailor Website",
     tags: ["HTML", "CSS"],
