@@ -41,13 +41,17 @@ const Hero = () => {
             <h1 className="hl-1 flex justify-center md:justify-start lg:max-w-[15ch]">
               Fakhri Ajrillah
             </h1>
-            <h2 className="max-sm:text-lg text-2xl md:text-3xl flex justify-center md:justify-start text-zinc-400 mt-1">AI Engineer | Software Engineer</h2>
+            <h2 className="max-sm:text-lg text-2xl md:text-3xl flex justify-center md:justify-start text-zinc-400 mt-1">Software Engineer</h2>
 
             <h4 className="paragraf flex md:justify-start sm:justify-center text-xl font-semibold lg:hidden md:block hidden  text-zinc-300 md:mt-8">
               About
             </h4>
             <p className="paragraf text-justify text-[14pt] mt-8 md:mt-2 text-zinc-400 lg:mt-10">
-              A highly motivated individual with hands-on experience in AI, Computer Vision, Robotics, and Embedded Systems. Proven track record of deploying machine learning models on edge devices, leading technical teams, and building real-time autonomous systems. Passionate about integrating intelligent algorithms with hardware to solve real-world problems.
+              Fresh Graduate from Electronics & Instrumentation at Universitas Gadjah Mada with experience building
+              backend services, REST APIs, and real-time systems using Node.js, TypeScript, and Python. Proven ability to
+              deliver software in Linux environments and collaborate across technical teams. Uniquely combines software
+              engineering foundations with hands-on ROS2 and robotics systems experience,  bringing both development
+              discipline and domain knowledge relevant to autonomous systems.
             </p>
           </div>
         </div>
