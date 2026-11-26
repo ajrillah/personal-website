@@ -80,7 +80,9 @@ import TechstackCard from "../components/TechstackCard";
 import { SiJavascript, SiOpencv, SiNextdotjs, SiTailwindcss, SiExpress, SiRos, SiArduino, SiTensorflow, SiRaspberrypi } from "react-icons/si";
 import { FaPython, FaReact, FaNodeJs, FaGitAlt, FaGithub, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { BiLogoMongodb } from "react-icons/bi";
-import { SiFastapi, SiDocker, SiLangchain, SiN8N } from "react-icons/si";
+import { SiFastapi, SiDocker, SiLangchain, SiN8N, SiElectron, SiTypescript, SiMicropython, SiKeras } from "react-icons/si";
+import { TbAntenna } from "react-icons/tb";
+import { FaDatabase } from "react-icons/fa";
 
 const techStacks = [
   {
@@ -89,6 +91,7 @@ const techStacks = [
       { name: "YOLO", type: "Object Detection", icon: <SiOpencv /> },
       { name: "OpenCV", type: "Computer Vision", icon: <SiOpencv /> },
       { name: "TensorFlow", type: "Deep Learning", icon: <SiTensorflow /> },
+      { name: "Keras", type: "Deep Learning", icon: <SiKeras /> },
       { name: "LangChain", type: "LLM Framework", icon: <SiLangchain /> },
     ],
   },
@@ -99,6 +102,10 @@ const techStacks = [
       { name: "Arduino", type: "Microcontroller", icon: <SiArduino /> },
       { name: "Raspberry Pi", type: "Edge Computing", icon: <SiRaspberrypi /> },
       { name: "ESP32", type: "Microcontroller", icon: <SiArduino /> },
+      { name: "Raspberry Pi Pico", type: "Microcontroller", icon: <FaMicrochip /> },
+      { name: "MicroPython", type: "Embedded Language", icon: <SiMicropython /> },
+      { name: "LoRa", type: "Wireless Network", icon: <TbAntenna /> },
+      { name: "Modbus / RS485", type: "Industrial Protocol", icon: <VscCircuitBoard /> },
     ],
   },
   {
@@ -107,6 +114,8 @@ const techStacks = [
       { name: "Python", type: "Language", icon: <FaPython /> },
       { name: "C++", type: "Language", icon: <TbBrandCpp /> },
       { name: "JavaScript", type: "Language", icon: <SiJavascript /> },
+      { name: "TypeScript", type: "Language", icon: <SiTypescript /> },
+      { name: "SQL", type: "Language", icon: <FaDatabase /> },
     ],
   },
   {
@@ -117,6 +126,7 @@ const techStacks = [
       { name: "MongoDB", type: "Database", icon: <BiLogoMongodb /> },
       { name: "React.js", type: "UI Library", icon: <FaReact /> },
       { name: "FastAPI", type: "Framework", icon: <SiFastapi /> },
+      { name: "Electron", type: "Desktop Framework", icon: <SiElectron /> },
       { name: "Docker", type: "Containerization", icon: <SiDocker /> },
       { name: "n8n", type: "Workflow Automation", icon: <SiN8N /> },
     ],

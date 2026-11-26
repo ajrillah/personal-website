@@ -3,6 +3,24 @@ import ExperiencesCard from "../components/ExperiencesCard";
 
 const works = [
   {
+    date: "2026 - Present",
+    title: "Hardware Programmer, Geoseismal Research Center",
+    desc: "Built embedded monitoring systems, including a pipe intrusion detection system using Raspberry Pi Pico, ADXL345 vibration sensors, a 5-node LoRa network (up to 1 km) and ML-based vibration classification with a FastAPI + WebSocket real-time dashboard. Also developed a full-stack web app to control and monitor an HPA power supply over Modbus, and deployed a 5-unit Raspberry Shake seismic network over ZeroTier with CAPS streaming.",
+    tags: ["LoRa", "Modbus", "FastAPI", "MicroPython"],
+  },
+  {
+    date: "2026 - Present",
+    title: "Software Developer, Hompimpa Photobooth",
+    desc: "Developing an end-to-end photobooth ecosystem: an Electron + React desktop app with Canon camera integration via gPhoto2 (USB control, HDMI live preview), a client photo gallery website, and a monitoring dashboard, all deployed on a self-hosted public server with no cloud rental cost.",
+    tags: ["Electron", "React", "gPhoto2"],
+  },
+  {
+    date: "2026",
+    title: "Freelance Developer, POS App for Toko Podomoro",
+    desc: "Designed and built a cross-platform desktop point-of-sale app for a grocery store, covering sales recording, SQL database design and custom-formatted PDF reports. Delivered in one month from requirements analysis to production, and still in daily use.",
+    tags: ["Electron", "React", "SQL"],
+  },
+  {
     date: "2024",
     title: "Technical Team Lead, UGM x PT Stechoq Robotika Indonesia",
     desc: "Led a cross-functional team of 20+ students in developing humanoid, quadruped, and mobile robot platforms, coordinating system design, hardware integration, and software development. Supervised the Vision Division: built a MobileNet-based object detection system integrated into a mobile app with live camera streaming from robot to smartphone for real-time processing.",
