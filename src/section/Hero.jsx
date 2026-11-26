@@ -42,12 +42,10 @@ const Hero = () => {
               Fakhri Ajrillah
             </h1>
 
-            <h2 className="max-sm:text-lg text-2xl md:text-3xl flex justify-center md:justify-start text-zinc-400 mt-1">AI Engineer | Software Engineer</h2>
+            <h2 className="max-sm:text-lg text-2xl md:text-3xl flex justify-center md:justify-start text-zinc-400 mt-1">Software Engineer</h2>
             <p className="flex justify-center md:justify-start text-base md:text-lg text-zinc-500 mt-2">
               Electronics &amp; Instrumentation, Universitas Gadjah Mada · Yogyakarta, Indonesia
             </p>
-
-            <h2 className="max-sm:text-lg text-2xl md:text-3xl flex justify-center md:justify-start text-zinc-400 mt-1">Software Engineer</h2>
 
 
             <h4 className="paragraf flex md:justify-start sm:justify-center text-xl font-semibold lg:hidden md:block hidden  text-zinc-300 md:mt-8">

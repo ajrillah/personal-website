@@ -80,7 +80,7 @@ import TechstackCard from "../components/TechstackCard";
 import { SiJavascript, SiOpencv, SiNextdotjs, SiTailwindcss, SiExpress, SiRos, SiArduino, SiTensorflow, SiRaspberrypi, SiLinux, SiSocketdotio, SiTypescript } from "react-icons/si";
 import { FaPython, FaReact, FaNodeJs, FaGitAlt, FaGithub, FaHtml5, FaCss3Alt, FaRobot } from "react-icons/fa";
 import { BiLogoMongodb } from "react-icons/bi";
-import { SiFastapi, SiDocker, SiLangchain, SiN8N, SiElectron, SiTypescript, SiMicropython, SiKeras } from "react-icons/si";
+import { SiFastapi, SiDocker, SiLangchain, SiN8N, SiElectron, SiMicropython, SiKeras } from "react-icons/si";
 import { TbAntenna } from "react-icons/tb";
 import { FaDatabase } from "react-icons/fa";
 
@@ -125,13 +125,8 @@ const techStacks = [
       { name: "Python", type: "Language", icon: <FaPython /> },
       { name: "C++", type: "Language", icon: <TbBrandCpp /> },
       { name: "JavaScript", type: "Language", icon: <SiJavascript /> },
-
       { name: "TypeScript", type: "Language", icon: <SiTypescript /> },
       { name: "SQL", type: "Language", icon: <FaDatabase /> },
-
-      { name: "TypeScript", type: "Language", icon: <SiTypescript /> },  // tambah
-
-
     ],
   },
   {
