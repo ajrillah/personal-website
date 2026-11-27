@@ -80,7 +80,9 @@ import TechstackCard from "../components/TechstackCard";
 import { SiJavascript, SiOpencv, SiNextdotjs, SiTailwindcss, SiExpress, SiRos, SiArduino, SiTensorflow, SiRaspberrypi, SiLinux, SiSocketdotio, SiTypescript } from "react-icons/si";
 import { FaPython, FaReact, FaNodeJs, FaGitAlt, FaGithub, FaHtml5, FaCss3Alt, FaRobot } from "react-icons/fa";
 import { BiLogoMongodb } from "react-icons/bi";
-import { SiFastapi, SiDocker, SiLangchain, SiN8N } from "react-icons/si";
+import { SiFastapi, SiDocker, SiLangchain, SiN8N, SiElectron, SiMicropython, SiKeras } from "react-icons/si";
+import { TbAntenna } from "react-icons/tb";
+import { FaDatabase } from "react-icons/fa";
 
 const techStacks = [
   {
@@ -99,6 +101,7 @@ const techStacks = [
       { name: "YOLO", type: "Object Detection", icon: <SiOpencv /> },
       { name: "OpenCV", type: "Computer Vision", icon: <SiOpencv /> },
       { name: "TensorFlow", type: "Deep Learning", icon: <SiTensorflow /> },
+      { name: "Keras", type: "Deep Learning", icon: <SiKeras /> },
       { name: "LangChain", type: "LLM Framework", icon: <SiLangchain /> },
     ],
   },
@@ -110,6 +113,10 @@ const techStacks = [
       { name: "Arduino", type: "Microcontroller", icon: <SiArduino /> },
       { name: "Raspberry Pi", type: "Edge Computing", icon: <SiRaspberrypi /> },
       { name: "ESP32", type: "Microcontroller", icon: <SiArduino /> },
+      { name: "Raspberry Pi Pico", type: "Microcontroller", icon: <FaMicrochip /> },
+      { name: "MicroPython", type: "Embedded Language", icon: <SiMicropython /> },
+      { name: "LoRa", type: "Wireless Network", icon: <TbAntenna /> },
+      { name: "Modbus / RS485", type: "Industrial Protocol", icon: <VscCircuitBoard /> },
     ],
   },
   {
@@ -118,16 +125,25 @@ const techStacks = [
       { name: "Python", type: "Language", icon: <FaPython /> },
       { name: "C++", type: "Language", icon: <TbBrandCpp /> },
       { name: "JavaScript", type: "Language", icon: <SiJavascript /> },
-      { name: "TypeScript", type: "Language", icon: <SiTypescript /> },  // tambah
-
+      { name: "TypeScript", type: "Language", icon: <SiTypescript /> },
+      { name: "SQL", type: "Language", icon: <FaDatabase /> },
     ],
   },
   {
     category: "Tools",
     techs: [
+
+      { name: "Node.js", type: "Runtime", icon: <FaNodeJs /> },
+      { name: "Express.js", type: "Framework", icon: <SiExpress /> },
+      { name: "MongoDB", type: "Database", icon: <BiLogoMongodb /> },
+      { name: "React.js", type: "UI Library", icon: <FaReact /> },
+      { name: "FastAPI", type: "Framework", icon: <SiFastapi /> },
+      { name: "Electron", type: "Desktop Framework", icon: <SiElectron /> },
+
       { name: "Linux", type: "Operating System", icon: <SiLinux /> },
       { name: "Git", type: "Version Control", icon: <FaGitAlt /> },
       { name: "GitHub", type: "Collaboration", icon: <FaGithub /> },  // tambah
+
       { name: "Docker", type: "Containerization", icon: <SiDocker /> },
       { name: "WebSocket", type: "Protocol", icon: <SiSocketdotio /> },
       { name: "n8n", type: "Workflow Automation", icon: <SiN8N /> },
