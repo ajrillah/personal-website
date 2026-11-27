@@ -4,6 +4,20 @@ import ProjectCard from "../components/ProjectCard";
 const projects = [
 
   {
+    imgSrc: "../images/hompimpa.png",
+    title: "Hompimpa Photobooth",
+    tags: ["Electron", "React", "Python", "gPhoto2"],
+    projectLink: "",
+    desc: "Developing an end-to-end photobooth ecosystem: an Electron + React desktop app with Canon camera integration via gPhoto2 (USB control, HDMI live preview), a client photo gallery website, and a monitoring dashboard, deployed on a self-hosted public server.",
+  },
+  {
+    imgSrc: "../images/pos-podomoro.png",
+    title: "POS App | Toko Podomoro",
+    tags: ["Electron", "React", "SQL", "JavaScript"],
+    projectLink: "",
+    desc: "Built a cross-platform desktop point-of-sale app for a grocery store, covering sales recording, SQL database design and custom-formatted PDF reports. Delivered in one month and still in daily use.",
+  },
+  {
     imgSrc: "../images/4.jpg",
     title: "Recycle Waste Classifier",
     tags: ["MobileNet", "OpenCV", "React", "Raspiberry Pi", "Linux", "Docker"],
